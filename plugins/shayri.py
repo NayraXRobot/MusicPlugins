@@ -67,10 +67,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/akaChampu"
+                        " sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/addlist/oNS1XEtWNYpjZWVl"
                     ),
                     InlineKeyboardButton(
-                        " ᴄʜᴀɴɴᴇʟ ", url=f"https://t.me/TheChampu"
+                        " ᴄʜᴀɴɴᴇʟ ", url=f"https://t.me/l_TERI_MERI_BAATE_l"
                     ),
                 ]
             ]
@@ -86,10 +86,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/akaChampu"
+                        " sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/addlist/oNS1XEtWNYpjZWVl"
                     ),
                     InlineKeyboardButton(
-                        " ᴄʜᴀɴɴᴇʟ ", url=f"https://t.me/TheChampu"
+                        " ᴄʜᴀɴɴᴇʟ ", url=f"https://t.me/l_TERI_MERI_BAATE_l"
                     ),
                 ]
             ]
