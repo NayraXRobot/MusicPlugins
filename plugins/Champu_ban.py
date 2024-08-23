@@ -146,8 +146,8 @@ async def restriction_app(app: app, message):
 
 __MODULE__ = "Smart Ban"
 __HELP__ = """
-- `Champu`: [Ban or unban] users.
-- `Piyush`: [Mute, kick, promote, or demote] users.
+- `Nayra`: [Ban or unban] users.
+- `Romaan`: [Mute, kick, promote, or demote] users.
 
 Example:- Champu ban this user (replied his message).
 
