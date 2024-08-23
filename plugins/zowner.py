@@ -10,7 +10,7 @@ from ChampuXMusic.utils.database import add_served_chat, get_assistant
 
 
 start_txt = """**
-✪ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗖𝗵𝗮𝗺𝗽𝘂 𝗥𝗲𝗽𝗼𝘀 ✪
+✪ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝙉𝙖𝙮𝙧𝙖 𝗥𝗲𝗽𝗼𝘀 ✪
 
 ➲ ᴇᴀsʏ ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ✰  
 ➲ ɴᴏ ʙᴀɴ ɪssᴜᴇs ✰  
@@ -30,16 +30,16 @@ async def start(_, msg):
           InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{app.username}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ᴄʜᴧᴍᴘᴜ", url="https://t.me/TheChampu"),
-          InlineKeyboardButton("sʜɪᴠᴀɴsʜᴜ", url="https://t.me/TheShivanshu"),
+          InlineKeyboardButton("||•ᴀʙᴏᴜᴛ 💖♡ ᴢɪᴅᴅɪ_ꜱʜᴀʏᴀʀ ♡💖 ||", url="https://t.me/AboutshayarAkhawab"),
+          InlineKeyboardButton("ᴢɪᴅᴅɪ_ꜱʜᴀʏᴀʀ", url="https://t.me/shayarakhawab"),
           ],
                [
-                InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/itsmeshivanshu"),
+                InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/shayarakhawab"),
 
 ],
 [
-              InlineKeyboardButton("ᴍᴜsɪᴄ", url=f"https://github.com/ChampuXD/ChampuMusic"),
-              InlineKeyboardButton("ᴘʟᴜɢɪɴs", url=f"https://github.com/TheChampu/MusicPlugins"),
+              InlineKeyboardButton("ᴍᴜsɪᴄ", url=f"https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"),
+              InlineKeyboardButton("ᴘʟᴜɢɪɴs", url=f"https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"),
               ],
               [
               InlineKeyboardButton("ᴍᴀɴᴀɢᴍᴇɴᴛ", url=f"https://github.com/ChampuXD/ChampuXManagment"),
@@ -64,7 +64,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ", url=f"https://github.com/ChampuXD/ChampuMusic"
+                        "sᴏᴜʀᴄᴇ", url=f"https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
                     )
                 ]
             ]
@@ -98,7 +98,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @TheChampuBot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @Shayarmusic_bot`**"
         )
         return
 
